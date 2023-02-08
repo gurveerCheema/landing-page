@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&family=Roboto+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* transition: all 1s; */
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+    height: 150px;
+}
+.navbar{
+   /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* gap: 10vw; */
+   padding: 0 200px;
+}
+.ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+
+
+}
+.ul li:hover{
+    color: blue;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    
+}
+.slider{
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    font-family: 'Assistant', sans-serif;
+    font-size: 15vh;
+}
+#slider-img{
+    height: 100%;
+    width: 100%;
+    transition: none;
+}
+.slider-btns{
+display: flex;
+justify-content: space-between;
+position: absolute;
+top: 40%;
+width: 100%;
+}
+#prev,#next{
+    color: white;
+    font-weight: bolder;
+    border: 2px solid transparent;
+    background-color: transparent;
+   font-size: 100px;
+   text-shadow: 1px 1px 2px black;
+   cursor: pointer;
+}
+
+.ul-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+.slider-status{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.circle-btn{
+    border: transparent;
+    background-color: transparent;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+text-decoration: none;
+
+}

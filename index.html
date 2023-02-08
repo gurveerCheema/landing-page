@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    
+
+    <img src="/images/logo.png" alt="Error" >
+    <nav class="navbar">
+        <ul class="ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Blog</li>
+            
+            
+        </ul>
+    
+
+        <ul class="ul-2">
+
+   
+</ul>
+    </nav>
+   
+</header>
+
+<main>
+    <div class="coming-soon">
+        <h1>COMING SOON</h1>
+    </div>
+    <div style="display: flex;flex-direction: column;position: relative;">
+    <div class="slider">
+        <img  alt="error" id="slider-img">
+    </div>
+    <div class="slider-btns">
+        <button id="prev" onClick="interval(-1); pauser();updateCircleBtns()"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="next" onClick="interval(1); pauser();"><i class="fa-solid fa-angle-right"></i></button>
+
+    </div>
+    <div class="slider-status">
+        <button class="circle-btn"><i class="fa-regular fa-circle"></i></button>
+        <button class="circle-btn"><i class="fa-regular fa-circle"></i></button>
+        <button class="circle-btn"><i class="fa-regular fa-circle"></i></button>
+        <button class="circle-btn"><i class="fa-regular fa-circle"></i></button>
+
+
+    </div>
+</div>
+</main>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b056e5cdb6.js" crossorigin="anonymous"></script>
+</body>
+</html>
