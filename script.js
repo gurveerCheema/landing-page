@@ -5,16 +5,7 @@ let imgArr=[
     "http://atlas-content-cdn.pixelsquid.com/stock-images/perfume-bottle-dox7ee1-600.jpg"
    
 ];
-const image_Sliding = [
-    { transform: 'translateX(0vw)' },
-    { transform: 'translateX(30vw)' }
-  ];
-  
-  const image_timing = {
-    duration: 400,
-    iterations: 1,
-  }
-  
+
 let slider_Img = document.getElementById("slider-img");
 let nextBtn = document.getElementById("next");
 let prevBtn = document.getElementById("prev")
@@ -76,7 +67,6 @@ function updateCircleBtns(){
 }
 console.log(circle_Btn)
 function interval(index){
-slider_Img.animate(image_Sliding,image_timing)
 
     if(index===-1){
         imgIndex--;
